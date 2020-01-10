@@ -19,6 +19,12 @@
         "gsc89/common": "^0.1.4",
         "psr/log": "^1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/gsc89/common.git"
+        }
+    ],
     "require-dev": {
         "phpunit/php-code-coverage": "^5.0",
         "phpunit/phpunit": "^6.0"
