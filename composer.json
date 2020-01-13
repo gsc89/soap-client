@@ -14,17 +14,17 @@
             "Phpforce\\SoapClient\\Tests": "tests"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://github.com/gsc89/common.git"
-        }
-    ],
     "require": {
         "php": ">=7.2",
         "gsc89/common": "dev-master",
         "psr/log": "^1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:gsc89/common.git"
+        }
+    ],
     "require-dev": {
         "phpunit/php-code-coverage": "^5.0",
         "phpunit/phpunit": "^6.0"
