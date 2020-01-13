@@ -22,7 +22,7 @@
     ],
     "require": {
         "php": ">=7.2",
-        "gsc89/common": "^0.1.5",
+        "gsc89/common": "dev-master",
         "psr/log": "^1.0"
     },
     "require-dev": {
